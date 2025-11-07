@@ -530,7 +530,6 @@ sc-consensus = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5
 sc-consensus-aura = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-consensus-grandpa = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-executor = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
-sc-finality-grandpa = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-keystore = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-network = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-network-transactions = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
