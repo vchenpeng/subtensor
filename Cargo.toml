@@ -503,6 +503,3 @@ pallet-safe-mode = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev 
 sc-consensus-manual-seal = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sp-crypto-ec-utils = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 substrate-bip39 = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
-
-[patch."https://github.com/vchenpeng/polkadot-sdk"]
-sc-network-transactions = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
