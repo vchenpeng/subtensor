@@ -503,3 +503,39 @@ pallet-safe-mode = { git = "https://github.com/opentensor/polkadot-sdk.git", rev
 sc-consensus-manual-seal = { git = "https://github.com/opentensor/polkadot-sdk.git", rev = "81fa2c54e94f824eba7dabe9dffd063481cb2d80" }
 sp-crypto-ec-utils = { git = "https://github.com/opentensor/polkadot-sdk.git", rev = "81fa2c54e94f824eba7dabe9dffd063481cb2d80" }
 substrate-bip39 = { git = "https://github.com/opentensor/polkadot-sdk.git", rev = "81fa2c54e94f824eba7dabe9dffd063481cb2d80" }
+
+[patch."https://github.com/opentensor/polkadot-sdk.git"]
+frame-benchmarking = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+frame-executive = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+frame-support = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+frame-system = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+frame-system-rpc-runtime-api = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-aura = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-authorship = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-balances = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-grandpa = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-session = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-sudo = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-timestamp = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-transaction-payment = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+pallet-utility = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-basic-authorship = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-client-api = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-consensus-aura = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-executor = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-network = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-network-transactions = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-service = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sc-transaction-pool = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-api = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-block-builder = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-consensus-aura = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-core = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-inherents = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-offchain = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-runtime = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-session = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-timestamp = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+sp-transaction-pool = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+substrate-frame-rpc-system = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
+# 如果缺少，运行 cargo tree | grep opentensor 添加剩余的
