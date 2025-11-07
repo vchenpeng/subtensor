@@ -563,7 +563,6 @@ sp-runtime = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe
 sp-session = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sp-staking = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sp-std = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
-sp-storage = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sp-timestamp = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sp-tracing = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sp-transaction-pool = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
