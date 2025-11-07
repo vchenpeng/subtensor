@@ -504,7 +504,7 @@ sc-consensus-manual-seal = { git = "https://github.com/opentensor/polkadot-sdk.g
 sp-crypto-ec-utils = { git = "https://github.com/opentensor/polkadot-sdk.git", rev = "81fa2c54e94f824eba7dabe9dffd063481cb2d80" }
 substrate-bip39 = { git = "https://github.com/opentensor/polkadot-sdk.git", rev = "81fa2c54e94f824eba7dabe9dffd063481cb2d80" }
 
-[patch."https://github.com/opentensor/polkadot-sdk.git"]
+[patch."https://github.com/opentensor/polkadot-sdk"]
 # 所有 frame- / sp- / sc- / pallet- 开头，全指向你的 fork + rev
 frame-benchmarking = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 frame-executive = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
@@ -524,7 +524,6 @@ pallet-utility = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = 
 sc-allocator = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-basic-authorship = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-block-builder = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
-sc-chain-specs = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-client-api = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
 sc-client-db = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }  # 重点！这行解决重复编译
 sc-consensus = { git = "https://github.com/vchenpeng/polkadot-sdk.git", rev = "5fe6e5bd916f10ace0a95e6e18e3e8eeb40e00dc" }
